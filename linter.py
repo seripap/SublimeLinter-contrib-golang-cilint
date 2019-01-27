@@ -10,12 +10,7 @@
 
 """This module exports the Gometalinter plugin class."""
 
-import os
-import shlex
-import tempfile
-
 from SublimeLinter.lint import Linter, highlight, util
-from SublimeLinter.lint.persist import settings
 
 
 class GolangCILint(Linter):
